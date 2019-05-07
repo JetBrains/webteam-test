@@ -1,0 +1,4 @@
+@custom-media --xlg screen and (max-width: 1540px);
+@custom-media --lg screen and (max-width: 1276px);
+@custom-media --md screen and (max-width: 1000px);
+@custom-media --sm screen and (max-width: 640px);

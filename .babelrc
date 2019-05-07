@@ -1,0 +1,6 @@
+{
+  "presets": [
+    "module:./utils/babel-preset.js"
+  ],
+  "plugins": []
+}

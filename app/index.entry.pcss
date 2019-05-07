@@ -1,0 +1,67 @@
+body {
+  font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+  min-width: 320px;
+  background-color: #27282c;
+}
+
+:root {
+  --highlight-color: #c8ff00;
+  --secondary-highlight-color: #6516b5;
+  --dim-color: #696969;
+  --gray-color: #afb1b3;
+}
+
+.example-for-breakpoints {
+  @media (--xlg) {
+    color: blue;
+  }
+
+  @media (--lg) {
+    color: green;
+  }
+
+  @media (--md) {
+    color: white;
+  }
+
+  @media (--sm) {
+    color: black;
+  }
+
+  color: red;
+}
+
+.link {
+  --link-color: var(--highlight-color);
+
+  outline: none;
+  cursor: pointer;
+  font-size: inherit;
+  line-height: inherit;
+  border-bottom: 1px solid transparent
+}
+
+.link, .link:hover {
+  text-decoration: none;
+  color: var(--link-color)
+}
+
+.link:hover {
+  border-bottom-color: var(--link-color)
+}
+
+.link:active, .link:focus {
+  color: var(--link-color)
+}
+
+.text-1 {
+  letter-spacing: normal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgba(39, 40, 44, .7);
+
+  &_theme_dark {
+    color: hsla(0, 0%, 100%, .6);
+  }
+}
