@@ -7,6 +7,7 @@
 ## Работа
 - страница для лэндинга [http://localhost:5050/landing.html](http://localhost:5050/landing.html)
 - страница с документацией по сетке [http://localhost:5050/layout-docs.html](http://localhost:5050/layout-docs.html)
+- логотипы продуктов, при необходимости, можно взять из пакета [@jetbrains/logos](https://www.npmjs.com/package/@jetbrains/logos) (в проекте не установлен, нужно установить самостоятельно)
 
 ## Условия
 - адаптивность страницы лэндинга
