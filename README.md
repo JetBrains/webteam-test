@@ -1,30 +1,31 @@
-## Запуск
-- установка зависимостей `yarn install` в корне проекта
-- запуск дев-сервера `yarn start`
-- после запуска, проект будет доступен на [http://localhost:5050/](http://localhost:5050/)
- 
- 
-## Работа
-- страница для лэндинга [http://localhost:5050/landing.html](http://localhost:5050/landing.html)
-- страница с документацией по сетке [http://localhost:5050/layout-docs.html](http://localhost:5050/layout-docs.html)
-- логотипы продуктов, при необходимости, можно взять из пакета [@jetbrains/logos](https://www.npmjs.com/package/@jetbrains/logos) (в проекте не установлен, нужно установить самостоятельно)
+## Running a project
+- Install dependencies by navigating to the project's root folder and running the `yarn install` command
+- Start the development server by running the `yarn start` command
+- Access the server at [http://localhost:5050/](http://localhost:5050/)
 
-## Условия
-- не менять текущую структуру файлов
-- не использовать jQuery
-- использовать только PostCSS
-- не использовать сторонние библиотеки для построения лейаута страницы, только [http://localhost:5050/layout-docs.html](http://localhost:5050/layout-docs.html)
-- использовать брейкпойнты из `exterrnal-libs/breakpoints/index.css`, пример использования есть в `index.entry.pcss`
-- использовать css переменные
+## Working with the project
+- Find landing page at [http://localhost:5050/landing.html](http://localhost:5050/landing.html)
+- Find layout system page at [http://localhost:5050/layout-docs.html](http://localhost:5050/layout-docs.html)
+- If you need product logos, you can access them via [@jetbrains/logos](https://www.npmjs.com/package/@jetbrains/logos) package. Note that you have to install it manually.
 
-## Требования к верстке
-- адаптивность - десктопная, планшетная и мобильная версии, подход к адаптивности - desktop-first
-- кроссбраузерность - последние версии современных браузеров, IE11, мобильные браузеры
-- шрифты - везде стандартные системные
-- меню при скролле страницы фиксируется по верхней границе окна браузера
-- раздел с продуктами является интерактивным - при наведении на название продукта, его логотип остается непрозрачным, а все остальные становятся полупрозрачными, названия при этом являются ссылками (в мобильной версии интерактива с прозрачностью нет)
-- поведение всех интерактивных элементов на странице, которое не уточняется в дизайне, остается на усмотрение разработчика
-- оживлять форму не обязательно, достаточно верстки
+## Rules
+- Do not change the current file structure
+- Do not use jQuery
+- Do not use external layout libraries, only [http://localhost:5050/layout-docs.html](http://localhost:5050/layout-docs.html)
 
-## Пожелания
-- Описать проблемы с которыми пришлось столкнуться
+
+- Use only PostCSS
+- Use breakpoints from `exterrnal-libs/breakpoints/index.css`. You can find usage example in `index.entry.pcss`
+- Use CSS variables
+
+## Layout requirements 
+- Adaptivity: there should be desktop, tablet and mobile versions, but use desktop-first approach
+- Cross-browser compatibility: support for all modern browsers, including IE11 and mobile browsers
+- Fonts: use standard system fonts
+- When scrolling, the site menu must stick to the top browser border
+- Make product section interactive. When the name of the product is hovered over, logo should stay opaque while other elements become semi-transparent. Product names musy also become links. On mobile, element transparency should not be implemented. 
+- Behavior of interactive elements that are not specified in this design doc is left up to you
+- You don't have to make forms interactive and can leave at as a static layout
+
+## Feedback
+- Be sure to mention problems that you've encountered
