@@ -20,7 +20,7 @@
 
 ## Layout requirements 
 - Adaptivity: there should be desktop, tablet and mobile versions, but use desktop-first approach
-- Cross-browser compatibility: support for all modern browsers, including IE11 and mobile browsers
+- Cross-browser compatibility: support for all modern browsers
 - Fonts: use standard system fonts
 - When scrolling, the site menu must stick to the top browser border
 - Make product section interactive. When the name of the product is hovered over, logo should stay opaque while other elements become semi-transparent. Product names musy also become links. On mobile, element transparency should not be implemented. 
