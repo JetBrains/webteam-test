@@ -24,7 +24,7 @@
 - Fonts: use standard system fonts
 - When scrolling, the site menu must stick to the top browser border
 - Make product section interactive. When the name of the product is hovered over, logo should stay opaque while other elements become semi-transparent. Product names musy also become links. On mobile, element transparency should not be implemented. 
-- Behavior of interactive elements that are not specified in this design doc is left up to you
+- Behavior of interactive elements that are not specified in the design doc and readme.md is left up to you
 - You don't have to make forms interactive and can leave at as a static layout
 
 ## Feedback
