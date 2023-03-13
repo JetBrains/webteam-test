@@ -1,4 +1,5 @@
 ## Running a project
+- Please use node version 16.x
 - Install dependencies by navigating to the project's root folder and running the `yarn install` command
 - Start the development server by running the `yarn start` command
 - Access the server at [http://localhost:5050/](http://localhost:5050/)
