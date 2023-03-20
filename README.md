@@ -16,7 +16,7 @@
 
 
 - Use only PostCSS
-- Use breakpoints from `exterrnal-libs/breakpoints/index.css`. You can find usage example in `index.entry.pcss`
+- Use breakpoints from `external-libs/breakpoints/index.css`. You can find usage example in `index.entry.pcss`
 - Use CSS variables
 
 ## Layout requirements 
